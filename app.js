@@ -23,10 +23,10 @@ const cocktailDisplay = async () => {
             <h2>${cocktail.strDrink}</h2>
             <img src="${cocktail.strDrinkThumb}"></img>
             <p class="description">${cocktail.strInstructions}</p>
-            <p class="mesureIngredient">${cocktail.strIngredient1} : ${cocktail.strMeasure1}</p>
-            <p class="mesureIngredient">${cocktail.strIngredient2} : ${cocktail.strMeasure2}</p>
-            <p class="mesureIngredient">${cocktail.strIngredient3} : ${cocktail.strMeasure3}</p>
-            <p class="mesureIngredient">${cocktail.strIngredient4} : ${cocktail.strMeasure4}</p>
+            <p class="mesureIngredient">${cocktail.strIngredient1} 🍹  ${cocktail.strMeasure1}</p>
+            <p class="mesureIngredient">${cocktail.strIngredient2} 🍸 ${cocktail.strMeasure2}</p>
+            <p class="mesureIngredient">${cocktail.strIngredient3} 🍹 ${cocktail.strMeasure3}</p>
+            <p class="mesureIngredient">${cocktail.strIngredient4} 🍸 ${cocktail.strMeasure4}</p>
 
         </li>
         `
